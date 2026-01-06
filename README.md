@@ -2,7 +2,7 @@
 
 ![Doppio Coffee MCP](doppio-coffee-mcp.jpg)
 
-**Order freshly roasted specialty coffee from DOPPIO roastery (Zilina, Slovakia) directly through AI assistants.**
+**Order freshly roasted specialty coffee from [DOPPIO roastery](https://www.kavadoppio.sk) (Zilina, Slovakia) directly through AI assistants.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -11,7 +11,7 @@
 ## Features
 
 - **Browse Coffee Catalog** - Filter by origin, roast level, flavor notes, acidity, bitterness
-- **Smart Recommendations** - Get suggestions based on your preferences
+- **Personalized Suggestions** - AI recommends coffees based on your saved preferences
 - **One-Click Ordering** - Create checkout with automatic 20% MCP discount
 - **Save Preferences** - Remember your brewing method, favorite size, and shipping address
 - **Slovak Roastery** - Fresh coffee from Zilina, shipped across Europe
@@ -22,7 +22,7 @@
 
 ### Option 1: Download Bundle (Easiest)
 
-1. Download `doppio-coffee-mcp.mjs` from [Releases](https://github.com/anthropics/doppio-coffee-mcp/releases)
+1. Download `doppio-coffee-mcp.mjs` from [Releases](https://github.com/tomas-chudjak/doppio-coffee-mcp/releases)
 2. Add to Claude Desktop config:
 
 ```json
@@ -54,7 +54,7 @@
 ### Option 3: Build from Source
 
 ```bash
-git clone https://github.com/anthropics/doppio-coffee-mcp.git
+git clone https://github.com/tomas-chudjak/doppio-coffee-mcp.git
 cd doppio-coffee-mcp/mcp-server
 npm install
 npm run build
@@ -146,7 +146,8 @@ Retrieve your saved preferences.
 
 | Size | Weight | Best For |
 |------|--------|----------|
-| **small** | 220g (330g filter) | Trying new coffees |
+| **small** | 220g | Trying new coffees |
+| | 330g | Filter only coffees |
 | **medium** | 500g | Regular consumption |
 | **large** | 1kg | Daily drinkers, offices |
 
@@ -207,7 +208,7 @@ mcp-server/
 For questions or issues:
 
 - **Website:** [www.kavadoppio.sk](https://www.kavadoppio.sk)
-- **Issues:** [GitHub Issues](https://github.com/your-repo/doppio-coffee-mcp/issues)
+- **Issues:** [GitHub Issues](https://github.com/tomas-chudjak/doppio-coffee-mcp/issues)
 
 ---
 

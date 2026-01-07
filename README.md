@@ -38,18 +38,20 @@
 
 3. Restart Claude Desktop and start ordering coffee!
 
-### Option 2: npx (Coming Soon)
+### Option 2: npx (Recommended)
 
 ```json
 {
   "mcpServers": {
     "doppio-coffee": {
       "command": "npx",
-      "args": ["doppio-coffee-mcp"]
+      "args": ["-y", "doppio-coffee-mcp"]
     }
   }
 }
 ```
+
+> **Note:** The `-y` flag auto-confirms the package installation.
 
 ### Option 3: Build from Source
 
